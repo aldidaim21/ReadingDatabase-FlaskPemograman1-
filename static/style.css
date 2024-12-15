@@ -1,0 +1,35 @@
+/* Gaya untuk tabel */
+table {
+  width: 100%; /* Membuat tabel memanfaatkan lebar penuh */
+  border-collapse: collapse; /* Menghilangkan jarak antar border */
+  margin: 20px 0; /* Menambahkan jarak dengan elemen lain */
+  font-size: 16px;
+  text-align: left; /* Teks rata kiri */
+}
+
+table th, table td {
+  border: 1px solid #ddd; /* Menambahkan border sederhana */
+  padding: 10px; /* Memberikan ruang di dalam sel */
+}
+
+table th {
+  background-color: #f4f4f4; /* Warna latar untuk header tabel */
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Memberikan warna berbeda untuk baris genap */
+}
+
+table tr:hover {
+  background-color: #f1f1f1; /* Efek hover pada baris tabel */
+}
+
+/* Gaya untuk H1 */
+h1 {
+  font-family: 'Arial', sans-serif; /* Font sederhana */
+  color: #333; /* Warna teks */
+  text-align: center; /* Teks rata tengah */
+  margin-bottom: 20px; /* Menambahkan jarak bawah */
+  font-size: 28px; /* Ukuran teks */
+}
